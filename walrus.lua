@@ -47,7 +47,8 @@ mobs:register_mob("arctic_life:walrus", {
 		run_start = 55,		run_end = 95, -- walk
 		punch_start = 100,		punch_end = 145, -- attack
 	},
-	follow = "farming:wheat", view_range = 7,
+	follow = {"mobs_fish:clownfish", "mobs_fish:tropical"},
+	view_range = 7,
 	replace_rate = 50,
 	replace_what = {"group:flora"},
 	replace_with = "air",
